@@ -2,7 +2,6 @@
 
 python netas_support.py
 
-rm -f .env
-
 # here add sth that will run on every session
+
 exec "$@"
