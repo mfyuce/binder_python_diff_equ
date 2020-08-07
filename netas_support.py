@@ -1,9 +1,11 @@
 import webdav3.client as wc
 from os import getenv, path
 from dotenv import load_dotenv
+from pathlib import Path
+home = str(Path.home())
 
-_EXPORT_FILE = "./export.csv"
-_IMPORT_FILE = "./import.csv"
+_EXPORT_FILE = "{}/export.csv".format(home)
+_IMPORT_FILE = "{}/import.csv".format(home)
 
 load_dotenv()
 
