@@ -5,3 +5,4 @@ python-dotenv
 scipy
 sklearn
 pandas
+jupyterlab>=1.0
