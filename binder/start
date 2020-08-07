@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python netas_support.py
+python ../netas_support.py
 
 # here add sth that will run on every session
 
